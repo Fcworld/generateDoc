@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.axsl.org.w3c.dom.mathml:mathml-dom-java:2.0" type="repository">
+    <properties maven-id="org.axsl.org.w3c.dom.mathml:mathml-dom-java:2.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mathml-dom-java-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mathml-dom-java-2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
