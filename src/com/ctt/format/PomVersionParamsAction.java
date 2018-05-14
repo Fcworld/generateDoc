@@ -22,10 +22,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.StringReader;
-import java.io.StringWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -63,7 +60,13 @@ public class PomVersionParamsAction extends AnAction {
         WriteCommandAction.runWriteCommandAction(project, new Runnable() {
             @Override
             public void run() {
-                document.replaceString(0, lastLength, replaceText);
+                try {
+                    document.replaceString(0, lastLength, new String(replaceText.getBytes(),"GB2312"));
+
+                } catch (UnsupportedEncodingException e1) {
+                    e1.printStackTrace();
+                }
+
             }
         });
         editor.getCaretModel().removeSecondaryCarets();
@@ -74,8 +77,7 @@ public class PomVersionParamsAction extends AnAction {
         try {
             org.w3c.dom.Element root = null;
             String text = editor.getDocument().getText();
-
-            document = createStandardDocument(text);
+            document = createStandardDocument(new String(text.getBytes(),"GB2312"));
             root = document.getDocumentElement();
             NodeList nodePros = root.getElementsByTagName(PROPERTIES);
             if(null != nodePros && nodePros.getLength()>1){
@@ -181,7 +183,9 @@ public class PomVersionParamsAction extends AnAction {
             factory.setIgnoringElementContentWhitespace(true);
             DocumentBuilder db= factory.newDocumentBuilder();
             try {
-                return db.parse(new InputSource(new StringReader(srcXml)));
+                InputSource inputSource = new InputSource(new StringReader(srcXml));
+                inputSource.setEncoding("GB2312");
+                return db.parse(inputSource);
             } catch (SAXException e) {
                 e.printStackTrace();
             }
@@ -214,10 +218,6 @@ public class PomVersionParamsAction extends AnAction {
         TransformerFactory tfac = TransformerFactory.newInstance();
         try {
             javax.xml.transform.Transformer t = tfac.newTransformer();
-//            t.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
-//            t.setOutputProperty(OutputKeys.INDENT, "yes");
-//            t.setOutputProperty(OutputKeys.METHOD, "xml"); // xml, html,
-            // text
             t.setOutputProperty(
                     "{http://xml.apache.org/xslt}indent-amount", "4");
             t.transform(new DOMSource(document.getDocumentElement()),
@@ -295,6 +295,7 @@ public class PomVersionParamsAction extends AnAction {
 
     private org.dom4j.Document getDocumnet(String selectText){
         SAXReader saxReader = new SAXReader();
+        saxReader.setEncoding("GB2312");
         org.dom4j.Document document = null;
         try {
             return saxReader.read(new ByteArrayInputStream(selectText.getBytes()));

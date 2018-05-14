@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e3d644f-c62b-4681-907c-53b3eb721a93" name="Default" comment="添加新文件文件">
-      <change afterPath="$PROJECT_DIR$/generateDoc.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2e3d644f-c62b-4681-907c-53b3eb721a93" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/GenerateDocAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/GenerateDocAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/GenerateDocAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/SayHellAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/SayHellAction$KeyValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/SayHellAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/SayHellAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatConfigurable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatConfigurable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/FormatSetting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/StatementGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/setting/StatementGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/util/XmlFormatUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/ctt/format/util/XmlFormatUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/AbstractLayout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/DimensionInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/GridConstraints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/GridLayoutManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/HorizontalInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/LayoutState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/Spacer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/SupportCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generateDoc/com/intellij/uiDesigner/core/VerticalInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ctt/format/GenerateDocAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ctt/format/GenerateDocAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ctt/format/SayHellAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ctt/format/SayHellAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ctt/format/setting/FormatSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ctt/format/setting/FormatSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java" afterDir="false" />
     </list>
     <ignored path="generateDoc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,32 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SayHellAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ctt/format/SayHellAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="38" column="62" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="78" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="78" />
+            <state relative-caret-position="43">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -91,14 +44,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PomVersionParamsAction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PomVersionParamsAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+            <state relative-caret-position="-280">
+              <caret line="297" column="37" selection-start-line="297" selection-start-column="37" selection-end-line="297" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/ex/ActionUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="268" column="32" lean-forward="true" selection-start-line="268" selection-start-column="32" selection-end-line="268" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputSource.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/org/xml/sax/InputSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="189" selection-start-line="189" selection-end-line="189" />
               <folding>
-                <element signature="e#2669#2670#0" expanded="true" />
-                <element signature="e#2751#2752#0" expanded="true" />
+                <element signature="e#4635#4636#0" expanded="true" />
+                <element signature="e#4686#4687#0" expanded="true" />
+                <element signature="e#5458#5459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractSAXParser.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/AbstractSAXParser.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="520" column="74" selection-start-line="520" selection-start-column="74" selection-end-line="520" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringReader.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/StringReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAXReader.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/dom4j-2.0.0.jar!/org/dom4j/io/SAXReader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="203" selection-start-line="203" selection-end-line="203" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteArrayInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ByteArrayInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+              <folding>
+                <element signature="e#4342#4343#0" expanded="true" />
+                <element signature="e#4405#4406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,18 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
               <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XmlFormatUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ctt/format/util/XmlFormatUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,11 +147,11 @@
         <option value="$PROJECT_DIR$/src/com/ctt/format/setting/FormatConfigurable.java" />
         <option value="$PROJECT_DIR$/src/com/ctt/format/util/XmlFormatUtil.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
-        <option value="$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java" />
         <option value="$PROJECT_DIR$/src/com/ctt/format/SayHellAction.java" />
         <option value="$PROJECT_DIR$/src/com/ctt/format/GenerateDocAction.java" />
         <option value="$PROJECT_DIR$/src/com/ctt/format/setting/FormatSetting.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java" />
       </list>
     </option>
   </component>
@@ -202,6 +202,11 @@
             <path>
               <item name="generateDoc" type="b2602c69:ProjectViewProjectNode" />
               <item name="generateDoc" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="generateDoc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="generateDoc" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,8 +242,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -646,7 +650,7 @@
       <workItem from="1526164667861" duration="26556000" />
       <workItem from="1526207883599" duration="1246000" />
       <workItem from="1526261017066" duration="670000" />
-      <workItem from="1526261748343" duration="257000" />
+      <workItem from="1526261748343" duration="4545000" />
     </task>
     <task id="LOCAL-00001" summary="添加.ignore文件">
       <created>1526261089975</created>
@@ -655,11 +659,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526261089975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加发布zip插件包">
+      <created>1526262045211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526262045211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55216000" />
+    <option name="totallyTimeSpent" value="59504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -668,25 +679,25 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32616487" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="3" />
+      <window_info id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50363785" side_tool="true" weight="0.5071685" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49636218" weight="0.5071685" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49636218" weight="0.31899643" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19713262" />
-      <window_info id="Capture Tool" order="3" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25707355" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" weight="0.111560225" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.39007634" />
+      <window_info id="Structure" order="6" sideWeight="0.5013928" weight="0.25222313" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35714287" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32078853" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -696,28 +707,33 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49694657" weight="0.5099668" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30152673" />
-      <window_info id="Structure" order="1" weight="0.39007634" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Designer" order="5" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32890365" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030534" side_tool="true" weight="0.15614618" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25747508" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32890365" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49636218" weight="0.31899643" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.111560225" />
+      <window_info id="Structure" order="6" sideWeight="0.5013928" weight="0.25222313" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Designer" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2311828" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Palette&#9;" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19713262" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50363785" side_tool="true" weight="0.5071685" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297491" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32616487" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,7 +752,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加.ignore文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加.ignore文件" />
+    <MESSAGE value="添加发布zip插件包" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加发布zip插件包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -759,38 +776,62 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$APPLICATION_HOME_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/AbstractSAXParser.class</url>
+          <line>526</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>saxReader.read(new ByteArrayInputStream(selectText.replace(XML_FORMAT,&quot;&quot;).getBytes()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>saxReader.read(new ByteArrayInputStream(selectText.getBytes()))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rtnStr.replace(XML_FORMAT,&quot;&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getDocumnet(rtnStr)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getDocumnet(rtnStr).asXML()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/setting/FormatForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/components/PersistentStateComponent.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/setting/FormatConfigurable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/PsiClass.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/setting/StatementGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/util/PsiTreeUtil.class" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/com/intellij/psi/impl/compiled/ClsElementImpl.class" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/psi/XmlElementVisitor.class" />
@@ -850,13 +891,6 @@
       </provider>
     </entry>
     <entry file="jar://E:/jdk7/jdk1.7/src.zip!/org/xml/sax/XMLReader.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/dom4j-2.0.0.jar!/org/dom4j/io/SAXReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/openapi/editor/Editor.class" />
     <entry file="jar://$PROJECT_DIR$/lib/dom4j-2.0.0.jar!/org/dom4j/Element.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -924,17 +958,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-          <folding>
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ctt/format/setting/FormatSetting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -944,8 +967,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="43">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+          <folding>
+            <element signature="e#4342#4343#0" expanded="true" />
+            <element signature="e#4405#4406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/io/StringReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/org/xml/sax/InputSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+          <folding>
+            <element signature="e#4635#4636#0" expanded="true" />
+            <element signature="e#4686#4687#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/AbstractSAXParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="520" column="74" selection-start-line="520" selection-start-column="74" selection-end-line="520" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/dom4j-2.0.0.jar!/org/dom4j/io/SAXReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/ex/ActionUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="268" column="32" lean-forward="true" selection-start-line="268" selection-start-column="32" selection-end-line="268" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="297" column="37" selection-start-line="297" selection-start-column="37" selection-end-line="297" selection-end-column="37" />
         </state>
       </provider>
     </entry>
