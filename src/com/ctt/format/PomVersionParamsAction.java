@@ -266,9 +266,10 @@ public class PomVersionParamsAction extends AnAction {
         }
         String versionStr = keyValueList.get(0).value+"."+keyValueList.get(1).value+".version";
         String replace$Str = "${"+versionStr+"}";
-        if(null != nodeVersion) {
-            // 在版本更改之前赋值
-            getNodePro(nodePro,versionStr,nodeVersion.getTextContent(),document);
+        String versionText = nodeVersion.getTextContent();
+        // 在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}
+        if(null != nodeVersion && null != versionText && !versionText.startsWith("${") && !versionText.endsWith("}")) {
+            getNodePro(nodePro, versionStr, versionText, document);
             nodeVersion.setTextContent(replace$Str);
         }
     }
