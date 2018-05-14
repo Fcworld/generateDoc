@@ -46,8 +46,8 @@
       <file leaf-file-name="PomVersionParamsAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="255" column="43" lean-forward="true" selection-start-line="255" selection-start-column="43" selection-end-line="255" selection-end-column="43" />
+            <state relative-caret-position="103">
+              <caret line="253" column="30" selection-start-line="253" selection-start-column="30" selection-end-line="253" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,7 @@
       <file leaf-file-name="InputSource.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/org/xml/sax/InputSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2567">
+            <state relative-caret-position="2516">
               <caret line="189" selection-start-line="189" selection-end-line="189" />
               <folding>
                 <element signature="e#4635#4636#0" expanded="true" />
@@ -195,6 +195,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,9 +230,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -657,7 +657,9 @@
       <workItem from="1526261748343" duration="4803000" />
       <workItem from="1526266845288" duration="949000" />
       <workItem from="1526268083682" duration="696000" />
-      <workItem from="1526275953445" duration="920000" />
+      <workItem from="1526275953445" duration="1262000" />
+      <workItem from="1526277277529" duration="270000" />
+      <workItem from="1526277593541" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="添加.ignore文件">
       <created>1526261089975</created>
@@ -694,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526267959353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解决dependency中个节点顺序引起的数组越界问题&#10;数组改为HashMap">
+      <created>1526277136807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526277136807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62327000" />
+    <option name="totallyTimeSpent" value="63318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -714,17 +723,17 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49636218" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297491" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291592" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19713262" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" weight="0.10185934" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.15278901" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" sideWeight="0.5013928" side_tool="true" weight="0.25222313" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29032257" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3548387" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,31 +744,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3291592" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49636218" weight="0.33333334" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.10185934" />
-      <window_info id="Structure" order="6" sideWeight="0.5013928" side_tool="true" weight="0.25222313" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32616487" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49860725" visible="true" weight="0.29830235" />
+      <window_info id="Structure" order="6" sideWeight="0.5013928" side_tool="true" weight="0.25222313" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24961832" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Designer" order="4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29032257" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31899643" />
       <window_info id="Palette&#9;" order="1" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19713262" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50363785" side_tool="true" weight="0.5071685" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297491" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32616487" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -783,7 +792,8 @@
     <MESSAGE value="添加发布zip插件包" />
     <MESSAGE value="调整编码格式，解决文件中存在中文无法解析的情况" />
     <MESSAGE value="在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}" />
-    <option name="LAST_COMMIT_MESSAGE" value="在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}" />
+    <MESSAGE value="解决dependency中个节点顺序引起的数组越界问题&#10;数组改为HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决dependency中个节点顺序引起的数组越界问题&#10;数组改为HashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -807,25 +817,13 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
+          <url>jar://$APPLICATION_HOME_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/AbstractSAXParser.class</url>
           <line>526</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java</url>
-          <line>253</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java</url>
-          <line>252</line>
-          <properties />
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="49" />
+      <option name="time" value="51" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -981,13 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/GenerateDocAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ctt/format/setting/FormatSetting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1022,7 +1013,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/org/xml/sax/InputSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2567">
+        <state relative-caret-position="2516">
           <caret line="189" selection-start-line="189" selection-end-line="189" />
           <folding>
             <element signature="e#4635#4636#0" expanded="true" />
@@ -1053,10 +1044,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ctt/format/GenerateDocAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ctt/format/PomVersionParamsAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="255" column="43" lean-forward="true" selection-start-line="255" selection-start-column="43" selection-end-line="255" selection-end-column="43" />
+        <state relative-caret-position="103">
+          <caret line="253" column="30" selection-start-line="253" selection-start-column="30" selection-end-line="253" selection-end-column="30" />
         </state>
       </provider>
     </entry>

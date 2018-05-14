@@ -45,22 +45,17 @@ public class PomVersionParamsAction extends AnAction {
     public void actionPerformed(AnActionEvent e) {
         final Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
         final Project project = e.getRequiredData(CommonDataKeys.PROJECT);
-        //Access document, caret, and selection
         final Document document = editor.getDocument();
         final  int lastLength = editor.getDocument().getTextLength();
         final String replaceText = this.getOneReplaceStr(editor);
-//        System.out.println();
-        WriteCommandAction.runWriteCommandAction(project, new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    document.replaceString(0, lastLength, new String(replaceText.getBytes(),"GB2312"));
+        WriteCommandAction.runWriteCommandAction(project, () -> {
+            try {
+                document.replaceString(0, lastLength, new String(replaceText.getBytes(),"GB2312"));
 
-                } catch (UnsupportedEncodingException e1) {
-                    e1.printStackTrace();
-                }
-
+            } catch (UnsupportedEncodingException e1) {
+                e1.printStackTrace();
             }
+
         });
         editor.getCaretModel().removeSecondaryCarets();
     }
@@ -233,10 +228,7 @@ public class PomVersionParamsAction extends AnAction {
         if(null == node){
             return;
         }
-
         NodeList sonElementList = node.getChildNodes();
-        // 保证顺序性
-        //List<KeyValue> keyValueList = new ArrayList<>();
         Map<String, KeyValue> map = new LinkedHashMap<>();
         Node nodeVersion = null;
         int length = sonElementList.getLength();
@@ -258,13 +250,16 @@ public class PomVersionParamsAction extends AnAction {
                 map.put(nodeName,new KeyValue(nodeName,nodeText));
             }
         }
-        String versionStr = map.get("groupId").value+"."+map.get("artifactId").value+".version";
-        String replace$Str = "${"+versionStr+"}";
-        String versionText = nodeVersion.getTextContent();
-        // 在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}
-        if(null != nodeVersion && null != versionText && !versionText.startsWith("${") && !versionText.endsWith("}")) {
-            getNodePro(nodePro, versionStr, versionText, document);
-            nodeVersion.setTextContent(replace$Str);
+
+        if(null != nodeVersion) {
+            String versionText = nodeVersion.getTextContent();
+            // 在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}
+            if (null != nodeVersion && null != versionText && !versionText.startsWith("${") && !versionText.endsWith("}")) {
+                String versionStr = map.get("groupId").value + "." + map.get("artifactId").value + ".version";
+                String replace$Str = "${" + versionStr + "}";
+                getNodePro(nodePro, versionStr, versionText, document);
+                nodeVersion.setTextContent(replace$Str);
+            }
         }
     }
 
@@ -291,7 +286,6 @@ public class PomVersionParamsAction extends AnAction {
     private org.dom4j.Document getDocumnet(String selectText){
         SAXReader saxReader = new SAXReader();
         saxReader.setEncoding("GB2312");
-        org.dom4j.Document document = null;
         try {
             return saxReader.read(new ByteArrayInputStream(selectText.getBytes()));
         } catch (DocumentException e) {
