@@ -12,13 +12,13 @@ import org.jetbrains.annotations.Nullable;
  * Created by Administrator on 2018/5/11 0011.
  */
 
-@State(
-        name = "FormatSetting",
-        storages = {@Storage(
-                id = "other",
-                file = "$APP_CONFIG$/format.xml"
-        )}
-)
+//@State(
+//        name = "FormatSetting",
+//        storages = {@Storage(
+//                id = "other",
+//                file = "$APP_CONFIG$/format.xml"
+//        )}
+//)
 public class FormatSetting implements PersistentStateComponent<Element> {
     private String setFormat;
 

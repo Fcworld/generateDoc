@@ -1,4 +1,4 @@
-<idea-plugin version="2">
+<idea-plugin>
   <id>com.your.company.unique.plugin.id</id>
   <name>Plugin display name here</name>
   <version>1.0</version>
@@ -41,11 +41,14 @@
       anchor:       添加到控件的位置
 
     -->
-    <action id="GenerateDoc" class="com.ctt.format.GenerateDocAction" text="GenerateDoc">
-      <add-to-group group-id="GenerateGroup"  anchor="last"/>
-    </action>
-    <action id="SayHello" class="com.ctt.format.SayHellAction" text="SayHello">
-      <add-to-group group-id="GenerateGroup" anchor="first"/>
+    <!--<action id="GenerateDoc" class="com.ctt.format.GenerateDocAction" text="GenerateDoc">-->
+      <!--<add-to-group group-id="GenerateGroup"  anchor="last"/>-->
+    <!--</action>-->
+    <!--<action id="SayHello" class="com.ctt.format.SayHellAction" text="SayHello">-->
+      <!--<add-to-group group-id="GenerateGroup" anchor="first"/>-->
+    <!--</action>-->
+    <action id="PomVersionParams" class="com.ctt.format.PomVersionParamsAction" text="PomVersionParams">
+      <add-to-group group-id="HelpMenu" anchor="first"/>
     </action>
   </actions>
 
