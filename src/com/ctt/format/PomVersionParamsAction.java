@@ -23,9 +23,7 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class PomVersionParamsAction extends AnAction {
 
@@ -50,13 +48,8 @@ public class PomVersionParamsAction extends AnAction {
         //Access document, caret, and selection
         final Document document = editor.getDocument();
         final  int lastLength = editor.getDocument().getTextLength();
-//        final SelectionModel selectionModel = editor.getSelectionModel();
-//        final int start = selectionModel.getSelectionStart();
-//        final int end = selectionModel.getSelectionEnd();
-//        getMultiReplaceStr(editor);
-//        final String replaceText = this.getOneReplaceStr(selectionModel.getSelectedText());
-
         final String replaceText = this.getOneReplaceStr(editor);
+//        System.out.println();
         WriteCommandAction.runWriteCommandAction(project, new Runnable() {
             @Override
             public void run() {
@@ -243,7 +236,8 @@ public class PomVersionParamsAction extends AnAction {
 
         NodeList sonElementList = node.getChildNodes();
         // 保证顺序性
-        List<KeyValue> keyValueList = new ArrayList<>();
+        //List<KeyValue> keyValueList = new ArrayList<>();
+        Map<String, KeyValue> map = new LinkedHashMap<>();
         Node nodeVersion = null;
         int length = sonElementList.getLength();
         for (int i = 0; i<length; i++) {
@@ -254,17 +248,17 @@ public class PomVersionParamsAction extends AnAction {
             }
             String nodeText = node2.getTextContent();
             if("groupId".equals(nodeName)){
-                keyValueList.add(0,new KeyValue(nodeName,nodeText));
+                map.put(nodeName,new KeyValue(nodeName,nodeText));
             }
             if("artifactId".equals(nodeName)){
-                keyValueList.add(1,new KeyValue(nodeName,nodeText.replaceAll("-",".").replaceAll("-",".")));
+                map.put(nodeName,new KeyValue(nodeName,nodeText.replaceAll("-",".").replaceAll("-",".")));
             }
             if("version".equals(nodeName)){
                 nodeVersion = node2;
-                keyValueList.add(2,new KeyValue(nodeName,nodeText));
+                map.put(nodeName,new KeyValue(nodeName,nodeText));
             }
         }
-        String versionStr = keyValueList.get(0).value+"."+keyValueList.get(1).value+".version";
+        String versionStr = map.get("groupId").value+"."+map.get("artifactId").value+".version";
         String replace$Str = "${"+versionStr+"}";
         String versionText = nodeVersion.getTextContent();
         // 在版本更改之前赋值，验证版本是否已经被参数化且参数化${...}
